@@ -28,6 +28,7 @@ languages.each do |language|
 end
 
 # 無限ループ
+=begin
 languages.each do |language|
   puts language
   if language == 'Ruby'
@@ -35,3 +36,4 @@ languages.each do |language|
     redo
   end
 end
+=end
